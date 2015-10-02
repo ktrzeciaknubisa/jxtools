@@ -1,0 +1,27 @@
+{
+  "name": "jxtools",
+  "version": "0.0.1",
+  "description": "JXcore Tools",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktrzeciaknubisa/jxtools"
+  },
+  "keywords": [
+    "JXcore",
+    "tools"
+  ],
+  "author": "Krzysztof Trzeciak, Nubisa Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktrzeciaknubisa/jxtools/issues"
+  },
+  "homepage": "https://github.com/ktrzeciaknubisa/jxtools",
+  "dependencies": {
+    "download-progress": "0.0.1",
+    "progress": "~1.1.0",
+    "async": "~0.2.9"
+  }
+}
