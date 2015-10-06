@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "JXcore Tools",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ktrzeciaknubisa/jxtools"
@@ -20,8 +19,9 @@
   },
   "homepage": "https://github.com/ktrzeciaknubisa/jxtools",
   "dependencies": {
+    "adm-zip": "^0.4.7",
+    "async": "~0.2.9",
     "download-progress": "0.0.1",
-    "progress": "~1.1.0",
-    "async": "~0.2.9"
+    "progress": "~1.1.0"
   }
 }
