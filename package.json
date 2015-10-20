@@ -20,8 +20,6 @@
   "homepage": "https://github.com/ktrzeciaknubisa/jxtools",
   "dependencies": {
     "adm-zip": "^0.4.7",
-    "async": "~0.2.9",
-    "download-progress": "0.0.1",
     "progress": "~1.1.0"
   }
 }
