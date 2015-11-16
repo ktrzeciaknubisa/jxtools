@@ -2,17 +2,17 @@
 
 var fs = require('fs');
 var path = require('path');
-var common = require('./lib/common.js');
-
-
-for (var o in common) {
-  if (common.hasOwnProperty(o))
-    exports[o] = common[o];
-}
 
 if (typeof jxcore === 'undefined')
   jxcore = {utils: require('./lib/jx/_jx_utils')};
 
+var jx = require('./lib/tools/jx.js');
+
+
+for (var o in jx) {
+  if (jx.hasOwnProperty(o))
+    exports[o] = jx[o];
+}
 
 exports.console = require('./lib/tools/console');
 exports.fs = require('./lib/tools/fs');
