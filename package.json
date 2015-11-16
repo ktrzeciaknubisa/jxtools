@@ -1,6 +1,6 @@
 {
   "name": "jxtools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JXcore Tools",
   "main": "index.js",
   "scripts": {},
