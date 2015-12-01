@@ -19,5 +19,14 @@ unzipper.on('end', function (err) {
 unzipper.unzip(file, input.localDir);
 ```
 
+#### tools/http.js
 
+##### Downloading JXcore
 
+* downloadJXcore([version][, engine][, arch], cb)
+
+```js
+jxtools.http.downloadJXcore('0.3.0.7', 'sm', function(err, jxfile) {
+  console.log(err ? "Err: " + err : "OK: " + jxfile);
+});
+```
