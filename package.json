@@ -1,6 +1,6 @@
 {
   "name": "jxtools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "JXcore Tools",
   "main": "index.js",
   "scripts": {},
@@ -12,7 +12,9 @@
     "JXcore",
     "tools"
   ],
-  "author": "Krzysztof Trzeciak, Nubisa Inc.",
+  "author": {
+    "name": "Krzysztof Trzeciak, Nubisa Inc."
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ktrzeciaknubisa/jxtools/issues"
